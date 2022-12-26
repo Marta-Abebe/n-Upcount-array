@@ -30,11 +30,11 @@ public class nUpCount {
 
     public static void main(String[] args) 
     {
-    int DisplayResult = nUpCount(new int[]{2, 3, 1, -6, 8, -3, -1, 2}, 5);
+                int DisplayResult = nUpCount(new int[]{2, 3, 1, -6, 8, -3, -1, 2}, 5);
 		System.out.println("The First output is:"+DisplayResult);
-		DisplayResult = nUpCount(new int[]{6, 3, 1}, 6);
+		DisplayResult = nUpCount(new int[]{6, 3, 1,-8,7,1}, 5);
 		System.out.println("\n The Second output is:"+DisplayResult);
-		DisplayResult = nUpCount(new int[]{1, 2, -1, 5, 3, 2, -3}, 20);
+		DisplayResult = nUpCount(new int[]{3, 2, -1, 6, 3, 2, -3}, 6);
 		System.out.println("\n The Third output is:"+DisplayResult);
         
     }
